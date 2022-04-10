@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+body{
+
+      font-family: 'Cairo', sans-serif; !important
+    background-color: #eeeeee;
+    color : #000428;
+	overflow-x: hidden;
+    transition: 0.5s;  
+}
+nav{
+background-image: linear-gradient(to left, #735b0c, #c7a32d);
+    text-align: right;
+    padding-right: 30px;
+    width: 100%;
+    height: 80px;
+}
+footer{
+
+    background-image: linear-gradient(to left, #735b0c, #c7a32d);
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    color: white;
+    padding-top: 20px;
+    font-size: 22px; !important
+    font-weight: 500;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+.card-body{
+    margin-top: 80px;
+    padding-top:50px;
+    width:400px;
+    background-color:white;
+    border: solid 2px gray;
+    border-radius: 20px;
+    box-shadow: 1px 2px 1px 2px #888888;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.card-body:hover{
+    box-shadow: 3px 4px 3px 4px #888888;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.headOfPersonal{
+    height: auto;
+    border: solid 2px #eee;
+    background-image: linear-gradient(to left, #735b0c, #c7a32d);
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 20px;
+    color: white;
+}
+#form-container{
+    text-align: right;
+	background-color: #eee;
+}
+#showHide{
+    transition: 0.5s;
+    float: left;
+    margin-left: 20px;
+    
+}
+.submitButton{
+   background-image: linear-gradient(to left, #735b0c, #c7a32d);
+    margin-top: 10px;
+}
+.submitButton:hover{
+    background-color: #a9841f;  
+    margin-top: 10px;
+ 
+}
+.backButton{
+    background-color: dimgray;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.backButton a{
+    text-decoration: none;
+    color: white;
+    
+}
+.backButton:hover{
+    background-color: #6a7575;
+}
+
+    .leftD {
+        width: 25%;
+    }
+
+    .rightD {
+        width: 30%
+    }
+
+    .centerD {
+        width: 45%;
+    }
+
+    @media screen and (max-width: 1000px) {
+
+        .leftD,
+        .mainD,
+        .rightD {
+            width: 80%;
+            /* The width is 100%, when the viewport is 800px or smaller */
+        }
+    }
+
+    /* Use a media query to add a break point at 800px: */
+    @media screen and (max-width: 800px) {
+
+        .leftD,
+        .mainD,
+        .rightD {
+            width: 100%;
+            /* The width is 100%, when the viewport is 800px or smaller */
+        }
+    }
